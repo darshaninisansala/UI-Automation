@@ -24,22 +24,18 @@ The project follows a clean Page Object Model (POM) structure for better readabi
 Below is the structure of the project:
 
 AutomationTesting/
-│
-├── pom.xml # Maven dependency file
-├── README.md # Project documentation
-│
-├── src/
-│ ├── main/java/com/automationteststore/
-│ │ ├── base/ # Base setup classes for WebDriver
-│ │ ├── common/ # Common reusable commands
-│ │ ├── pages/ # Page Object classes for different pages
-│ │ └── utilities/ # Utility or helper classes
-│ │
-│ └── test/java/com/automationteststore/testcases/
-│ ├── AutomationTestStoreTestCase.java
-│ └── OtherTestCases.java
-│
-└── reports/ # Folder containing generated test reports
+ pom.xml # Maven dependency file
+ README.md # Project documentation
+ src/
+ main/java/com/automationteststore/
+base/ # Base setup classes for WebDriver
+common/ # Common reusable commands
+pages/ # Page Object classes for different pages
+ utilities/ # Utility or helper classes
+ test/java/com/automationteststore/testcases/
+ AutomationTestStoreTestCase.java
+ OtherTestCases.java
+ reports/ # Folder containing generated test reports
 
 
 
