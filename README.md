@@ -85,7 +85,7 @@ mvn clean test
 GitHub Actions – Continuous Integration (CI)
 
 This project includes GitHub Actions to automate the process of building and running tests whenever changes are pushed to the repository or when a pull request is created.
-GitHub Actions allows you to set up a workflow that runs your Selenium TestNG test cases automatically in a cloud-based environment. This helps ensure that your tests are executed consistently, and any new code changes do not break existing functionality.
+GitHub Actions allows you to set up a workflow that runs your Selenium TestNG test cases automatically in a cloud-based environment. This helps ensure that you tests are executed consistently, and any new code changes do not break existing functionality.
 In this project, a workflow file named .github/workflows/ci.yml is created to define the CI process. The workflow performs the following steps:
 Checks out the repository – This step downloads your code from GitHub so that it can be built and tested.
 Sets up the Java environment – The workflow installs Java 17 using the actions/setup-java tool.
